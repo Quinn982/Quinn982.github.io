@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(82, 82, 197);
+    text-align: center;
+}
+#display
+{
+    display: block;
+    position: relative;
+    top:70px;
+}
+#title
+{   
+     font-size: 42px;
+     padding:20px;
+}
+.puzzleSize
+{
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button
+{
+    width:7rem;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 2vh;
+    border:3px outset rgb(112, 75, 198);
+    background-color: rgb(117, 82, 197);
+}
